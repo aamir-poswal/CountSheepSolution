@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddSheepService", "AddSheepService\AddSheepService.csproj", "{1D80F067-858F-437E-8FBE-67CF38E00122}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheepApiGateway", "SheepApiGateway\SheepApiGateway.csproj", "{2AF650F0-E52A-49D2-A0C0-66953B6022B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AmazonSQS", "AmazonSQS\AmazonSQS.csproj", "{F74C26A7-CAA6-414B-8AC5-35537555E08D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DF84676C-7F0C-42FE-9862-974C2CFE31BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddSheepServiceTest", "AddSheepServiceTest\AddSheepServiceTest.csproj", "{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheepApiGatewayTest", "SheepApiGatewayTest\SheepApiGatewayTest.csproj", "{71123F88-92C6-470A-8841-ABE3CEB55135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SheepCountService", "SheepCountService\SheepCountService.csproj", "{2CB9B2C7-51CA-4E3A-904C-8DF1479CF1C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SheepCountServiceTest", "SheepCountServiceTest\SheepCountServiceTest.csproj", "{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D80F067-858F-437E-8FBE-67CF38E00122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D80F067-858F-437E-8FBE-67CF38E00122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D80F067-858F-437E-8FBE-67CF38E00122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D80F067-858F-437E-8FBE-67CF38E00122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF650F0-E52A-49D2-A0C0-66953B6022B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF650F0-E52A-49D2-A0C0-66953B6022B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF650F0-E52A-49D2-A0C0-66953B6022B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF650F0-E52A-49D2-A0C0-66953B6022B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74C26A7-CAA6-414B-8AC5-35537555E08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74C26A7-CAA6-414B-8AC5-35537555E08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74C26A7-CAA6-414B-8AC5-35537555E08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74C26A7-CAA6-414B-8AC5-35537555E08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71123F88-92C6-470A-8841-ABE3CEB55135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71123F88-92C6-470A-8841-ABE3CEB55135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71123F88-92C6-470A-8841-ABE3CEB55135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71123F88-92C6-470A-8841-ABE3CEB55135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB9B2C7-51CA-4E3A-904C-8DF1479CF1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB9B2C7-51CA-4E3A-904C-8DF1479CF1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB9B2C7-51CA-4E3A-904C-8DF1479CF1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB9B2C7-51CA-4E3A-904C-8DF1479CF1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2AC9BE18-52D3-4B11-B98A-16DE3B990BAC} = {DF84676C-7F0C-42FE-9862-974C2CFE31BA}
+		{71123F88-92C6-470A-8841-ABE3CEB55135} = {DF84676C-7F0C-42FE-9862-974C2CFE31BA}
+		{7BC65031-0C85-4B0C-9621-B0D2A2C8D46B} = {DF84676C-7F0C-42FE-9862-974C2CFE31BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00777040-754D-42DB-8815-445D2278F57B}
+	EndGlobalSection
+EndGlobal
